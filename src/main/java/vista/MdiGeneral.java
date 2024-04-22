@@ -45,6 +45,10 @@ public class MdiGeneral extends javax.swing.JFrame {
         jMenu3 = new javax.swing.JMenu();
         jMenuItem3 = new javax.swing.JMenuItem();
         jMenuItem4 = new javax.swing.JMenuItem();
+        jMenu7 = new javax.swing.JMenu();
+        jMenu8 = new javax.swing.JMenu();
+        jMenu9 = new javax.swing.JMenu();
+        jMenu10 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
         jMenu5 = new javax.swing.JMenu();
         jMenu6 = new javax.swing.JMenu();
@@ -104,6 +108,18 @@ public class MdiGeneral extends javax.swing.JFrame {
         jMenu3.add(jMenuItem4);
 
         jMenu1.add(jMenu3);
+
+        jMenu7.setText("Altas");
+        jMenu1.add(jMenu7);
+
+        jMenu8.setText("Bajas");
+        jMenu1.add(jMenu8);
+
+        jMenu9.setText("Modificaciones");
+        jMenu1.add(jMenu9);
+
+        jMenu10.setText("Consulta");
+        jMenu1.add(jMenu10);
 
         jMenuBar1.add(jMenu1);
 
@@ -189,11 +205,15 @@ public class MdiGeneral extends javax.swing.JFrame {
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu10;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu3;
     private javax.swing.JMenu jMenu4;
     private javax.swing.JMenu jMenu5;
     private javax.swing.JMenu jMenu6;
+    private javax.swing.JMenu jMenu7;
+    private javax.swing.JMenu jMenu8;
+    private javax.swing.JMenu jMenu9;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuItem jMenuItem1;
     private javax.swing.JMenuItem jMenuItem2;
